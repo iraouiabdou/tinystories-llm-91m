@@ -1,0 +1,5 @@
+torch>=2.4          # nn.RMSNorm, fused AdamW, torch.compile
+datasets>=2.19
+tokenizers>=0.19
+numpy>=1.26
+tqdm>=4.66

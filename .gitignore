@@ -1,0 +1,17 @@
+# data / artifacts
+cache/
+*.pt
+*.pkl
+*.json.tmp
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/
