@@ -40,7 +40,7 @@ class RoPE(nn.Module):
         self.register_buffer("sin", emb.sin(), persistent=False)
 
     def forward(self, seq_len: int, offset: int = 0):
-      """Slices out the positions we actually need"""
+        """Slices out the positions we actually need"""
         end = offset + seq_len
         if end > self.max_seq:
             raise ValueError(
