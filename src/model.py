@@ -140,7 +140,7 @@ class LM(nn.Module):
 
     @classmethod
     def from_config(cls, cfg: dict, vocab_size: int):
-      """Allows to construct the model simply from a dict without unpacking it"""
+        """Allows to construct the model simply from a dict without unpacking it"""
         return cls(cfg["d_model"], vocab_size, cfg["h"], cfg["N"],
                    cfg["max_seq"], cfg["rope_max_seq"])
 
